@@ -1,3 +1,5 @@
+# Mage Workshop Laravel Tutorial : 
+
 Requirement for this project:
 
      "php": "^7.1.3",
@@ -6,7 +8,7 @@ Requirement for this project:
 Laravel Setup :
 
     Install PHP 7.1.3
-    Instal My SQL
+    Instal MySQL
     Install Composer
 
     type on cmd to create project :
@@ -21,9 +23,9 @@ check available command or reference in laravel
 
 run laravel
 
-    php artisan serve
-    or
-    in browser http://localhost/laravel/magelaravel/public/
+        php artisan serve
+        or
+        in browser http://localhost/laravel/magelaravel/public/
 
 
 setup database in .env
@@ -50,7 +52,7 @@ create model , controller , migration for post
 
         php artisan make:model Post -mc
 
-Mage Workshop Laravel Tutorial : 
+## Step by Step Tutorial : 
 
 //under maintenance
 
