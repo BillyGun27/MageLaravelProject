@@ -1,4 +1,8 @@
 # Mage Workshop Laravel Tutorial : 
+* what is laravel
+* Model -> Eloquent -> Database
+* View -> Blade
+* Controller 
 
 Requirement for this project:
 
@@ -37,7 +41,7 @@ setup database in .env
         DB_USERNAME=homestead
         DB_PASSWORD=secret
 
-setup authentication:
+setup authentication(optional):
     
         php artisan make:auth
         php artisan migrate
@@ -62,3 +66,7 @@ change welcome to index and modify middleware
 
 add table column name to post table in migration
 eloquent display data and save
+
+add app post
+update post
+delete post

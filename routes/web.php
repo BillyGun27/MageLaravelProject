@@ -13,6 +13,14 @@
 
 Route::get('/', 'HomeController@index');
 
+Route::get('/detail/{post}', 'HomeController@detail');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@home')->name('home');
+Route::get('/home/edit/{idpost}', 'HomeController@edit');
+
+
+Route::post('/post/create', 'PostController@create');
+Route::post('/post/update/{idpost}', 'PostController@update');
+Route::get('/post/delete/{idpost}', 'PostController@delete');
