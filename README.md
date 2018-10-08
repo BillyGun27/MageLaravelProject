@@ -26,6 +26,7 @@ Folder :  app/http/controller
 ## Learning Resource
 * [Official Documentation](https://laravel.com/docs/5.7/)
 * [Laracast](https://www.youtube.com/channel/UC3s5g0_lyZYOu8Jjo27udAQ)
+* [Stacktips Laravel Inroduction](https://stacktips.com/laravel/intro-to-laravel-php-framework-and-features)
 
 Requirement for this project:
 
