@@ -77,6 +77,23 @@ Setup authentication(optional):
         php artisan make:auth
         php artisan migrate
 
+Setup Email for Testing Purpose
+        
+        MAIL_DRIVER=log
+        MAIL_HOST=smtp.mailtrap.io
+        MAIL_PORT=2525
+        MAIL_USERNAME=null
+        MAIL_PASSWORD=null
+        MAIL_ENCRYPTION=null
+
+        or
+
+        MAIL_DRIVER=smtp
+        MAIL_HOST=smtp.gmail.com
+        MAIL_PORT=587
+        MAIL_USERNAME=mage.autosend@gmail.com
+        MAIL_PASSWORD=mageCE0721
+        MAIL_ENCRYPTION=tls
 
 Setup HomeController to manage website route.
         App/Http/Controllers/HomeController.php
