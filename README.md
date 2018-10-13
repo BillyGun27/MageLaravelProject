@@ -75,7 +75,13 @@ Setup database in .env
 Setup authentication(optional):
     
         php artisan make:auth
+
+
+Setup Database Configuration
+
         php artisan migrate
+        php artisan migrate:refresh //if you want to change laravel model
+
 
 Setup Email for Testing Purpose
         
